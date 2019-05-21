@@ -1,13 +1,13 @@
-# Tailwind CSS Playground
+# Minimal Tailwind Playground
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+A barebones starter project for playing around with Tailwind in a proper PostCSS environment. Forked from https://github.com/tailwindcss/playground.
 
 To get started:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
+    git clone https://github.com/dylanized/tailwind-minimal.git tailwind-minimal
 
     cd tailwindcss-playground
     ```
