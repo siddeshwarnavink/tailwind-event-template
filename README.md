@@ -8,6 +8,7 @@ Changes include:
 - font family and size ready to be configured in `tailwind.config.js`
 - extended color palette with primary, secondary and tertiary colors
 - stubbed out primary, secondary and tertiary CSS variable names in `custom.css`
+- moved CSS files into `/css` folder
 
 To get started:
 
