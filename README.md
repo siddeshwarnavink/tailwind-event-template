@@ -1,6 +1,13 @@
-# Minimal Tailwind Playground
+# Tailwind Boilerplate
 
-A barebones starter project for playing around with Tailwind in a proper PostCSS environment. Forked from https://github.com/tailwindcss/playground.
+A barebones but configurable starter project for playing around with Tailwind in a proper PostCSS environment. Forked from https://github.com/tailwindcss/playground.
+
+Changes include:
+- stripped down the homepage for getting started quickly
+- imported `custom.css` file for adding custom styles with @apply
+- font family and size ready to be configured in `tailwind.config.js`
+- extended color palette with primary, secondary and tertiary colors
+- stubbed out primary, secondary and tertiary CSS variable names in `custom.css`
 
 To get started:
 
