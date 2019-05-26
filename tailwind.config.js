@@ -47,17 +47,22 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: {
+        alpha: {
           lt: colors.blue[300],
           md: colors.blue[500],
           dk: colors.blue[700],
         },
-        secondary: {
+        beta: {
           lt: colors.red[300],
           md: colors.red[500],
           dk: colors.red[700],
         },
-        tertiary: {
+        cappa: {
+          lt: colors.green[300],
+          md: colors.green[500],
+          dk: colors.green[700],
+        },
+        delta: {
           lt: colors.purple[300],
           md: colors.purple[500],
           dk: colors.purple[700],

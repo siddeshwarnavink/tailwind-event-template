@@ -1,14 +1,18 @@
 /*
 CSS variables:
-var(--color-primary-lt);
-var(--color-primary-md);
-var(--color-primary-dk);
+var(--color-alpha-lt);
+var(--color-alpha-md);
+var(--color-alpha-dk);
 
-var(--color-secondary-lt);
-var(--color-secondary-md);
-var(--color-secondary-dk);
+var(--color-beta-lt);
+var(--color-beta-md);
+var(--color-beta-dk);
 
-var(--color-tertiary-lt);
-var(--color-tertiary-md);
-var(--color-tertiary-dk);
+var(--color-cappa-lt);
+var(--color-cappa-md);
+var(--color-cappa-dk);
+
+var(--color-delta-lt);
+var(--color-delta-md);
+var(--color-delta-dk);
 */
