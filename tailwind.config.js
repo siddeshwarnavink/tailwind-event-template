@@ -59,9 +59,9 @@ module.exports = {
         dk: colors.indigo[700],
       },
       beta: {
-        lt: colors.red[300],
-        md: colors.red[500],
-        dk: colors.red[700],
+        lt: colors.blue[300],
+        md: colors.blue[500],
+        dk: colors.blue[700],
       },
       cappa: {
         lt: colors.green[300],
