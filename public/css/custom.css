@@ -28,4 +28,8 @@ Shades of gray:
   var(--color-charcoal-lt);
   var(--color-charcoal-md);
   var(--color-charcoal-dk);
+
+Black and white:
+    var(--color-black);
+    var(--color-white);  
 */
