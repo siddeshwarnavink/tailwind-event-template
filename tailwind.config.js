@@ -47,6 +47,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        // theme colors
         alpha: {
           lt: colors.blue[300],
           md: colors.blue[500],
@@ -66,6 +67,22 @@ module.exports = {
           lt: colors.purple[300],
           md: colors.purple[500],
           dk: colors.purple[700],
+        },
+        // shades of gray
+        silver: {
+          lt: colors.gray[100],
+          md: colors.gray[200],
+          dk: colors.gray[300],
+        },
+        slate: {
+          lt: colors.gray[400],
+          md: colors.gray[500],
+          dk: colors.gray[600],
+        },
+        charcoal: {
+          lt: colors.gray[700],
+          md: colors.gray[800],
+          dk: colors.gray[900],
         },
       },
     },

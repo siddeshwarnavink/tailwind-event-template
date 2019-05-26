@@ -1,18 +1,31 @@
 /*
-CSS variables:
-var(--color-alpha-lt);
-var(--color-alpha-md);
-var(--color-alpha-dk);
+Theme colors:
+  var(--color-alpha-lt);
+  var(--color-alpha-md);
+  var(--color-alpha-dk);
 
-var(--color-beta-lt);
-var(--color-beta-md);
-var(--color-beta-dk);
+  var(--color-beta-lt);
+  var(--color-beta-md);
+  var(--color-beta-dk);
 
-var(--color-cappa-lt);
-var(--color-cappa-md);
-var(--color-cappa-dk);
+  var(--color-cappa-lt);
+  var(--color-cappa-md);
+  var(--color-cappa-dk);
 
-var(--color-delta-lt);
-var(--color-delta-md);
-var(--color-delta-dk);
+  var(--color-delta-lt);
+  var(--color-delta-md);
+  var(--color-delta-dk);
+
+Shades of gray:
+  var(--color-silver-lt);
+  var(--color-silver-md);
+  var(--color-silver-dk);
+
+  var(--color-slate-lt);
+  var(--color-slate-md);
+  var(--color-slate-dk);
+
+  var(--color-charcoal-lt);
+  var(--color-charcoal-md);
+  var(--color-charcoal-dk);
 */
