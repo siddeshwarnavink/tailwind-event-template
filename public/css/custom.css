@@ -30,6 +30,11 @@ Shades of gray:
   var(--color-charcoal-dk);
 
 Black and white:
-    var(--color-black);
-    var(--color-white);  
+  var(--color-black);
+  var(--color-white);
 */
+
+/* sample component */
+.sample-component {
+  @apply .p-1;
+}
