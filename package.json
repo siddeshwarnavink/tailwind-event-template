@@ -5,8 +5,8 @@
     "serve:prod": "cross-env NODE_ENV=production npm run serve",
     "start": "npm run serve",
     "// BUILD TASKS //": "",
-    "development": "cross-env NODE_ENV=development postcss public/css/tailwind.css -o public/build/tailwind.css",
-    "production": "cross-env NODE_ENV=production postcss public/css/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss public/css/tailwind.css -o public/build/tailwind.css",
+    "build:prod": "cross-env NODE_ENV=production npm run build"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
