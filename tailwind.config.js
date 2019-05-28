@@ -54,25 +54,10 @@ module.exports = {
     },
     colors: {
       // theme colors
-      alpha: {
-        lt: colors.indigo[300],
-        md: colors.indigo[500],
-        dk: colors.indigo[700],
-      },
-      beta: {
+      primary: {
         lt: colors.blue[300],
         md: colors.blue[500],
         dk: colors.blue[700],
-      },
-      cappa: {
-        lt: colors.green[300],
-        md: colors.green[500],
-        dk: colors.green[700],
-      },
-      delta: {
-        lt: colors.purple[300],
-        md: colors.purple[500],
-        dk: colors.purple[700],
       },
       // shades of gray
       silver: {
