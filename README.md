@@ -4,7 +4,7 @@ A barebones but configurable starter project for playing around with Tailwind in
 
 Changes include:
 - stripped down the playground homepage for getting started quickly
-- imported `custom.css` file for adding custom styles with @apply
+- imported `base.css` and `custom.css` files for adding custom styles with @apply
 - font family, text sizes, and screens ready to be configured in `tailwind.config.js`
 - replaced color palette with theme-ready lt/md/dk colors
 - moved CSS files into `/css` folder
