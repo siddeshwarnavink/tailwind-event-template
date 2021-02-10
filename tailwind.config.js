@@ -53,11 +53,14 @@ module.exports = {
             '6xl': '4rem',
         },
         colors: {
-            color1: '#000000',
+            color1: {
+                DEFAULT: '#000000',
+                light: 'rgba(0, 0, 0, .5)'
+            },
             color2: '#52057B',
             color3: '#892CDC',
             color4: '#BC6FF1',
-            white: '#fff'
+            white: '#fff',
         },
         extend: {},
     },
