@@ -5,7 +5,8 @@
     "start": "npm run serve",
     "build": "postcss public/css/tailwind.css -o public/build/tailwind.css",
     "build:prod": "cross-env NODE_ENV=production npm run build",
-    "lint:css": "stylelint public/css"
+    "lint:css": "stylelint public/css",
+    "prettier": "prettier --check ."
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
@@ -19,6 +20,7 @@
     "live-server": "^1.2.1",
     "postcss-cli": "^6.1.2",
     "postcss-import": "^12.0.1",
+    "prettier": "2.2.1",
     "stylelint": "^10.0.1",
     "stylelint-cli": "^1.1.0",
     "stylelint-config-recommended": "^2.2.0"

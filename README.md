@@ -33,4 +33,5 @@ A template build using [Tailwind](https://tailwindcss.com/) for an Event Booking
 ## Screenshots
 
 ## Credits
+
 This project template is taken from [dylanized/tailwind-boilerplate](https://github.com/dylanized/tailwind-boilerplate).
