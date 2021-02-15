@@ -1,164 +1,211 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="stylesheet" href="/build/tailwind.css" />
-  <title>Site title goes here</title>
-</head>
-<body class="antialiased">
-  <div class="relative bg-silver-md">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="/build/tailwind.css" />
+    <title>Event Booking</title>
+  </head>
+  <body>
+    <header
+      class="flex px-8 py-3 bg-color4 text-color2 border-b-4 border-color2"
+    >
+      <!-- Logo -->
+      <section class="flex mr-5">
+        <img src="./images/brand-icon.svg" alt="Icon" class="w-11 h-11" />
+        <div class="font-bold ml-3 text-xl m-auto hidden lg:block">
+          EventsBooking
+        </div>
+      </section>
 
-    <!-- container -->
-    <main class="relative max-w-5xl mx-auto">
-      <div class="flex flex-col min-h-screen lg:flex-row lg:items-center lg:p-8">
-        <div class="flex flex-col flex-grow bg-white lg:shadow-2xl lg:rounded-lg lg:overflow-hidden">
+      <!-- Main navigation links -->
+      <section class="mx-5 hidden lg:flex">
+        <div class="m-auto">
+          <a href="#" class="text-l font-bold px-4 py-6 hover:text-color1"
+            >Home</a
+          >
+        </div>
+        <div class="m-auto">
+          <a href="#" class="text-l font-bold px-4 py-6 hover:text-color1"
+            >Events</a
+          >
+        </div>
+      </section>
 
-          <!-- header -->
-          <header class="flex-grow flex flex-col justify-center p-12 pt-5">
-            <div class="md:pl-16 pl-0">
-              <h1 class="sm:font-light text-2xl sm:text-3xl md:text-4xl text-primary-md mt-6">Site title goes here</h1>
-              <p class="sm:text-xl text-beta-md mt-3 leading-relaxed">Curabitur maximus vel nisl vel commodo, curabitur maximus vel nisl vel commodo.</p>
+      <!-- Responsive space -->
+      <div class="flex-1"></div>
+
+      <!-- Side navigation links -->
+      <section class="mx-5 hidden lg:flex">
+        <div class="m-auto">
+          <a href="#" class="text-l font-bold px-4 py-6 hover:text-color1"
+            >My bookings</a
+          >
+        </div>
+        <button
+          class="m-auto mx-2 border-2 border-color2 rounded-l hover:bg-color2 hover:text-white text-l font-bold px-6 py-1"
+        >
+          Logout
+        </button>
+      </section>
+
+      <!-- Hamburger Icon -->
+      <div class="lg:hidden w-8 m-auto mt-2">
+        <div class="bg-color2 w-full h-1 mb-2"></div>
+        <div class="bg-color2 w-full h-1 mb-2"></div>
+        <div class="bg-color2 w-full h-1 mb-2"></div>
+      </div>
+    </header>
+
+    <!-- Main banner -->
+    <section
+      class="bg-image-sample-banner bg-color1 bg-no-repeat bg-cover bg-center"
+      style="
+        background-image: url('./images/sample_images/sample-banner-1.jpeg');
+        height: 25rem;
+      "
+    >
+      <div
+        class="h-full bg-color1 bg-opacity-50 text-white flex flex-col-reverse"
+      >
+        <section class="px-10 py-5 flex">
+          <div>
+            <h1 class="text-3xl">New York Summit 2020</h1>
+            <div class="flex">
+              <div class="mr-5">22th Dec 2020</div>
+              <div class="flex">
+                <img
+                  alt="Booking count"
+                  src="./images/icons/supervisor_account-white-18dp.svg"
+                  class="mr-1"
+                />
+                2.5k
+              </div>
             </div>
-          </header>
 
-          <!-- page section -->
-          <section class="border-t-2 border-silver-md flex-grow flex flex-col justify-center py-10 pt-6 px-12">
-            <div class="md:pl-16 pl-0">
-              <p class="text-slate-dk mt-1 text-sm md:text-base">Nullam elementum lacus ut eros malesuada, ut lacinia lacus mollis. Morbi fermentum est non egestas mollis. Sed non ex ex. Nullam leo diam, consequat condimentum diam ultrices, consequat egestas metus. Nulla auctor arcu non ante gravida hendrerit. Nam eget mi id eros auctor ornare quis vitae massa.</p>
+            <div class="w-full mt-2 lg:hidden md:hidden">
+              <button
+                class="px-8 py-2 bg-color3 rounded-md outline-none w-full"
+              >
+                View Details
+              </button>
             </div>
-          </section>
+          </div>
 
-          <!-- page section -->
-          <section class="border-t-2 border-silver-md">
+          <!-- Responsive space -->
+          <div class="flex-1"></div>
 
-            <!-- items -->
-            <div class="flex flex-wrap">
+          <div class="m-auto hidden lg:block md:block">
+            <button class="px-8 py-2 bg-color3 rounded-md outline-none">
+              View Details
+            </button>
+          </div>
+        </section>
+      </div>
+    </section>
 
-              <!-- item #1 -->
-              <div class="flex flex-col px-12 py-10 w-full sm:w-1/2 sm:border-r sm:border-b border-silver-md">
-                <div class="flex flex-grow">
-                  <!-- item icon -->
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8 md:h-10 md:w-10 md:-my-1">
-                      <g>
-                        <path class="fill-current text-slate-lt" d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z" />
-                        <path class="fill-current text-charcoal-lt" d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z" />
-                      </g>
-                    </svg>
-                  </div>
-                  <!-- item content -->
-                  <section class="leading-relaxed flex flex-col ml-4 md:ml-6">
-                    <h2 class="font-medium text-charcoal-md text-lg">Item #1</h2>
-                    <p class="text-slate-dk mt-1 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed augue lorem.</p>
-                    <div class="pt-1 mt-auto">
-                      <a class="inline-flex items-center text-beta-md hover:text-beta-dk" href="https://tailwindcss.com/docs">
-                        <span class="text-sm md:text-base font-semibold">Consectetur elit</span>
-                        <svg class="fill-current w-4 h-4 ml-2" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5858 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H14.5858L11.2929 1.70711C10.9024 1.31658 10.9024 0.683418 11.2929 0.292893C11.6834 -0.0976311 12.3166 -0.0976311 12.7071 0.292893L17.7071 5.29289C18.0976 5.68342 18.0976 6.31658 17.7071 6.70711L12.7071 11.7071C12.3166 12.0976 11.6834 12.0976 11.2929 11.7071C10.9024 11.3166 10.9024 10.6834 11.2929 10.2929L14.5858 7Z"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </section>
+    <!-- Main content -->
+    <main class="container p-6">
+      <section>
+        <span class="xl text-2xl border-b-4 border-color4 font-semibold">
+          Trending Events
+        </span>
+
+        <div class="lg:flex md:flex py-10">
+          <div
+            class="shadow-lg rounded-xl cursor-pointer hover:shadow-xl mr-5 mb-5 w-full md:w-96 lg:96"
+          >
+            <img
+              class="rounded-t-xl"
+              alt="Event thumbnail"
+              src="./images/sample_images/sample-thumbnail.jpg"
+            />
+            <div class="py-5 text-center">
+              <h1 class="text-2xl font-bold">Sample event</h1>
+              <div class="flex justify-center py-2 font-light">
+                <div class="mr-5">22th Dec 2020</div>
+                <div class="flex">
+                  <img
+                    alt="Booking count"
+                    src="./images/icons/supervisor_account-black-18dp.svg"
+                    class="mr-1"
+                  />
+                  2.5k
                 </div>
               </div>
-
-              <!-- item #2 -->
-              <div class="flex flex-col px-12 py-10 w-full sm:w-1/2 sm:border-r sm:border-b border-silver-md">
-                <div class="flex flex-grow">
-                  <!-- item icon -->
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8 md:h-10 md:w-10 md:-my-1">
-                      <g>
-                        <path class="fill-current text-slate-lt" d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z" />
-                        <path class="fill-current text-charcoal-lt" d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z" />
-                      </g>
-                    </svg>
-                  </div>
-                  <!-- item content -->
-                  <section class="leading-relaxed flex flex-col ml-4 md:ml-6">
-                    <h2 class="font-medium text-charcoal-md text-lg">Item #2</h2>
-                    <p class="text-slate-dk mt-1 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed augue lorem.</p>
-                    <div class="pt-1 mt-auto">
-                      <a class="inline-flex items-center text-beta-md hover:text-beta-dk" href="https://tailwindcss.com/docs">
-                        <span class="text-sm md:text-base font-semibold">Consectetur elit</span>
-                        <svg class="fill-current w-4 h-4 ml-2" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5858 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H14.5858L11.2929 1.70711C10.9024 1.31658 10.9024 0.683418 11.2929 0.292893C11.6834 -0.0976311 12.3166 -0.0976311 12.7071 0.292893L17.7071 5.29289C18.0976 5.68342 18.0976 6.31658 17.7071 6.70711L12.7071 11.7071C12.3166 12.0976 11.6834 12.0976 11.2929 11.7071C10.9024 11.3166 10.9024 10.6834 11.2929 10.2929L14.5858 7Z"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </section>
+            </div>
+          </div>
+          <div
+            class="shadow-lg rounded-xl cursor-pointer hover:shadow-xl mr-5 mb-5 w:full lg:w-96 md:w-96"
+          >
+            <img
+              class="rounded-t-xl"
+              alt="Event thumbnail"
+              src="./images/sample_images/sample-thumbnail.jpg"
+            />
+            <div class="py-5 text-center">
+              <h1 class="text-2xl font-bold">Sample event</h1>
+              <div class="flex justify-center py-2 font-light">
+                <div class="mr-5">22th Dec 2020</div>
+                <div class="flex">
+                  <img
+                    alt="Booking count"
+                    src="./images/icons/supervisor_account-black-18dp.svg"
+                    class="mr-1"
+                  />
+                  2.5k
                 </div>
               </div>
-
-              <!-- item #3 -->
-              <div class="flex flex-col px-12 py-10 w-full sm:w-1/2 sm:border-r sm:border-b border-silver-md">
-                <div class="flex flex-grow">
-                  <!-- item icon -->
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8 md:h-10 md:w-10 md:-my-1">
-                      <g>
-                        <path class="fill-current text-slate-lt" d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z" />
-                        <path class="fill-current text-charcoal-lt" d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z" />
-                      </g>
-                    </svg>
-                  </div>
-                  <!-- item content -->
-                  <section class="leading-relaxed flex flex-col ml-4 md:ml-6">
-                    <h2 class="font-medium text-charcoal-md text-lg">Item #3</h2>
-                    <p class="text-slate-dk mt-1 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed augue lorem.</p>
-                    <div class="pt-1 mt-auto">
-                      <a class="inline-flex items-center text-beta-md hover:text-beta-dk" href="https://tailwindcss.com/docs">
-                        <span class="text-sm md:text-base font-semibold">Consectetur elit</span>
-                        <svg class="fill-current w-4 h-4 ml-2" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5858 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H14.5858L11.2929 1.70711C10.9024 1.31658 10.9024 0.683418 11.2929 0.292893C11.6834 -0.0976311 12.3166 -0.0976311 12.7071 0.292893L17.7071 5.29289C18.0976 5.68342 18.0976 6.31658 17.7071 6.70711L12.7071 11.7071C12.3166 12.0976 11.6834 12.0976 11.2929 11.7071C10.9024 11.3166 10.9024 10.6834 11.2929 10.2929L14.5858 7Z"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </section>
-                </div>
-              </div>
-
-              <!-- item #4 -->
-              <div class="flex flex-col px-12 py-10 w-full sm:w-1/2 sm:border-r sm:border-b border-silver-md">
-                <div class="flex flex-grow">
-                  <!-- item icon -->
-                  <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-8 w-8 md:h-10 md:w-10 md:-my-1">
-                      <g>
-                        <path class="fill-current text-slate-lt" d="M12 21a2 2 0 0 1-1.41-.59l-.83-.82A2 2 0 0 0 8.34 19H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 4 2v16z" />
-                        <path class="fill-current text-charcoal-lt" d="M12 21V5a5 5 0 0 1 4-2h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4.34a2 2 0 0 0-1.42.59l-.83.82A2 2 0 0 1 12 21z" />
-                      </g>
-                    </svg>
-                  </div>
-                  <!-- item content -->
-                  <section class="leading-relaxed flex flex-col ml-4 md:ml-6">
-                    <h2 class="font-medium text-charcoal-md text-lg">Item #4</h2>
-                    <p class="text-slate-dk mt-1 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed augue lorem.</p>
-                    <div class="pt-1 mt-auto">
-                      <a class="inline-flex items-center text-beta-md hover:text-beta-dk" href="https://tailwindcss.com/docs">
-                        <span class="text-sm md:text-base font-semibold">Consectetur elit</span>
-                        <svg class="fill-current w-4 h-4 ml-2" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5858 7H1C0.447715 7 0 6.55228 0 6C0 5.44772 0.447715 5 1 5H14.5858L11.2929 1.70711C10.9024 1.31658 10.9024 0.683418 11.2929 0.292893C11.6834 -0.0976311 12.3166 -0.0976311 12.7071 0.292893L17.7071 5.29289C18.0976 5.68342 18.0976 6.31658 17.7071 6.70711L12.7071 11.7071C12.3166 12.0976 11.6834 12.0976 11.2929 11.7071C10.9024 11.3166 10.9024 10.6834 11.2929 10.2929L14.5858 7Z"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </section>
-                </div>
-              </div>
-              <!-- end items -->
-
-            </section>
-            <!-- end page section -->
-
+            </div>
           </div>
         </div>
-      </main>
-      <!-- end container -->
-
-    </div>
-  </div>
-</body>
+      </section>
+      <section>
+        <span class="xl text-2xl border-b-4 border-color4 font-semibold">
+          Pick a category
+        </span>
+        <section class="lg:flex py-10">
+          <div
+            class="shadow-lg rounded-xl cursor-pointer hover:shadow-xl mr-5 mb-5 text-center px-16 py-10 mr-5"
+            style="
+              background: linear-gradient(
+                133.43deg,
+                #e64529 0.73%,
+                #c1b670 97.03%
+              );
+            "
+          >
+            <img src="./images/sample_images/musical-notes 1.png" alt="Music" />
+            <h1 class="text-3xl font-semibold mt-5">Music</h1>
+          </div>
+          <div
+            class="shadow-lg rounded-xl cursor-pointer hover:shadow-xl mr-5 mb-5 text-center px-16 py-10 mr-5"
+            style="
+              background: linear-gradient(130.68deg, #29e66e 1%, #7074c1 100%);
+            "
+          >
+            <img src="./images/sample_images/laugh 1.png" alt="Comedy" />
+            <h1 class="text-3xl font-semibold mt-5">Comedy</h1>
+          </div>
+          <div
+            class="shadow-lg rounded-xl cursor-pointer hover:shadow-xl mr-5 mb-5 text-center px-16 py-10 mr-5"
+            style="
+              background: linear-gradient(131.3deg, #7e29e6 0%, #c17095 100%);
+            "
+          >
+            <img
+              src="./images/sample_images/understanding 1.png"
+              alt="Informative"
+            />
+            <h1 class="text-3xl font-semibold mt-5">Informative</h1>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
